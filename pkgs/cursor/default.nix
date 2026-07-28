@@ -12,7 +12,7 @@ pkgs.appimageTools.wrapType2 {
   # Fetch AppImage from official Cursor CDN
   src = pkgs.fetchurl {
     url = "https://downloads.cursor.com/production/31e8d61c448c7472e371505838a0fe34083dad55/linux/x64/Cursor-3.13.25-x86_64.AppImage";
-    sha256 = "c93abb12a31d6b66bd81a0604933867b7dbb204585ea268d1c734e8dc58e0cd0";
+    sha256 = "fd42477baa167834c2bc03206cd6c1b26076a604d942a48a5efb6bec77e4bfa9";
   };
 
   # Metadata for package introspection and indexing
